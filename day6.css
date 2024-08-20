@@ -1,0 +1,73 @@
+body {
+    background-image: url("./tea.jpg");
+    background-size: cover;
+  }
+  .header {
+    background-color: aqua;
+    width: 100%;
+  }
+  span {
+    font-size: 3rem;
+    padding-left: 4rem;
+  }
+  .navbar {
+    float: right;
+    padding-right: 15rem;
+    padding-top: 1rem;
+  }
+  .nav {
+    padding-left: 1rem;
+  }
+  #sticky {
+    background-image: linear-gradient(to right, blue, violet);
+    position: sticky;
+    top: 0px;
+  }
+  #txt1 {
+    color: white;
+  }
+  #txt2 {
+    direction: ltr;
+    padding-left: 40rem;
+    color: white;
+  }
+  #txt3 {
+    direction: rtl;
+    color: white;
+  }
+  .para1 {
+    background-color: white;
+    width: 100%;
+  }
+  #image {
+    z-index: 1;
+    border:2px double black;
+    padding-left: 28%;
+    padding-right: 35%;
+    margin: 30px;
+    height: 400px;
+    
+  }
+  #image1 {
+    width: 96.7%;
+    height: 400px;
+    object-fit: fill;
+    margin: 30px;
+    z-index: 2;
+    border: 2px double black;
+  }
+  #image2 {
+    width: 96.7%;
+    object-fit: fill;
+    height: 400px;
+    z-index: 3;
+    margin: 30px;
+    border: 2px double black;
+  }
+  .para2 {
+    background-color: lightgreen;
+    color: white;
+    z-index: 4;
+    border: 2px double black;
+    width: 99.9%
+  }
